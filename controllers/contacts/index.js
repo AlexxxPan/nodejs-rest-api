@@ -12,8 +12,6 @@ const updateFavorite = require('./updateFavorite');
 
 const deleteById = require('./deleteById');
 
-
-
 module.exports = {
     getAll: ctrlWrapper(getAll),
     getById: ctrlWrapper(getById),
